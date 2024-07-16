@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:black;
+    padding: 0;
+}
+header {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 93%, 47%);
+    padding: 10px 0;
+    margin-left: 50px;
+    text-align: left;
+    align-self: auto;
+}
+nav {
+    background-color: hsl(0, 0%, 0%);
+    color: #fff;
+    text-align: right;
+    padding-top: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    padding-right: 30px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.content {
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-item h2 {
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+
+.product-item button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.product-item button:hover {
+    background-color: #45a049;
+}
